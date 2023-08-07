@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* INDEX */
+.infoindex{
+    width: 150%;
+    height: 45%;
+}
+.datos{
+    width: 20rem;
+}
+/* EMPRESA */
+.body_empresa{
+    background-image: url(../assets/image/imagen-empresa.jpg);
+        background-size: cover;
+}
+.empresa_imagen_uno{
+    height: 30rem;
+    width: 30rem;
+}
+.empresa_imagen_dos{
+    height: 30rem;
+    width: auto;
+}
+/* CONTACTO */
+.contacto{
+    font-size: 1.5rem;
+}
+.limited-width {
+    width: 100%; /* Adjust this value as needed */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
