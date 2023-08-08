@@ -23,6 +23,13 @@
     height: 30rem;
     width: auto;
 }
+/* PROYECTO */
+@media (max-width: 744px) {
+    .links_pdf {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 /* CONTACTO */
 .contacto{
     font-size: 1.5rem;
