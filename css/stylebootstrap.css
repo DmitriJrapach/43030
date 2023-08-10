@@ -10,9 +10,40 @@
 .datos{
     width: 20rem;
 }
+.texto_index{
+    margin-bottom: 30%;
+}
+.texto_index_div{
+    font-size: 2rem;
+}
+@media (max-width: 1220px) {
+    .texto_index {
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 775px) {
+    .texto_index_div {
+        font-size: 1.3rem;
+       
+    }
+}
+@media (max-width: 600px) {
+    .texto_index_div {
+        font-size: 0.8rem;
+        margin: 0;
+        padding: 0;
+    }
+}
+@media (max-width: 355px) {
+    .texto_index {
+        margin-bottom: 1%;
+    }
+}
+
+
 /* EMPRESA */
 .body_empresa{
-    background-image: url(../assets/image/imagen-empresa.jpg);
+    background-image: url(../assets/image/empresa-background.jpg);
         background-size: cover;
 }
 .empresa_imagen_uno{
@@ -22,6 +53,12 @@
 .empresa_imagen_dos{
     height: 30rem;
     width: auto;
+}
+@media (max-width: 992px) {
+    .nuestra_empresa {
+        width: 92%;
+    }
+    
 }
 /* PROYECTO */
 @media (max-width: 744px) {
