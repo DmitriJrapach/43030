@@ -7,7 +7,7 @@
       <link rel="stylesheet" href="./css/stylebootstrap.css">
       <title>Inicio</title>
   </head>
-  <body class="bg-dark bg-gradient">
+  <body class="bg-dark bg-gradient text-white">
       <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid ">
@@ -15,7 +15,7 @@
               <img src="./assets/image/d20.webp" alt="logo" width="60" height="48" class="d-inline-block align-text-top">
             </a>
             <div>
-              <h1>REAL HOME PROYECT</h1>
+              <h1 class="text-bg-light">REAL HOME PROYECT</h1>
             </div>
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -23,13 +23,13 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
               <ul class="w-100 d-flex justify-content-end navbar-nav me-auto mb-2 mb-lg-0 ">
                 <li class="nav-item">
-                  <a class="nav-link btn btn-outline-warning" href="./index.html">Inicio</a>
+                  <a class="nav-link btn btn-outline-warning fw-bold fs-5" href="./index.html">Inicio</a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link btn btn-outline-warning" href="./page/empresa.html">Empresa</a>
+                  <a class="nav-link btn btn-outline-warning fw-bold fs-5" href="./page/empresa.html">Empresa</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle btn btn-outline-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Proyectos</a>
+                  <a class="nav-link dropdown-toggle btn btn-outline-warning fw-bold fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Proyectos</a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="./page/proyectos.html#casa_americana">Linea Casa Americana</a></li>
                     <li><a class="dropdown-item" href="./page/proyectos.html#casa_eficiente">Linea Casa Eficiente</a></li>
@@ -38,10 +38,10 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link btn btn-outline-warning" href="./page/contacto.html">Contacto</a>
+                  <a class="nav-link btn btn-outline-warning fw-bold fs-5" href="./page/contacto.html">Contacto</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link btn btn-outline-warning" href="./page/servicios.html"">Servicios</a>
+                  <a class="nav-link btn btn-outline-warning fw-bold fs-5" href="./page/servicios.html"">Servicios</a>
                 </li>
               </ul>
           </div>
@@ -103,35 +103,51 @@
       </main>
       <footer>
         <!-- FORMULARIO -->
-        <form action="form.php" method="post" enctype="text/plain">
-          <fieldset class="datos m-3">
+        <form class="d-flex justify-content-center" action="form.php" method="post" enctype="text/plain">
+          <fieldset class="datos m-3 align-items-center">
               <legend class="text-white">Datos personales</legend>
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label text-white">Nombre</label>
+                <label for="nombre" class="form-label ">Nombre</label>
                 <input type="text" class="form-control" id="nombre" placeholder="nombre">
               </div>
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label text-white">Telefono</label>
+                <label for="telefono" class="form-label ">Telefono</label>
                 <input type="number" class="form-control" id="telefono" placeholder="telefono">
               </div>
               <div class="mb-3 ">
-                <label for="exampleFormControlInput1" class="form-label text-white">Email</label>
+                <label for="email" class="form-label ">Email</label>
                 <input type="email" class="form-control" id="email" placeholder="email@example.com">
               </div>
               <div class="mb-3 ">
-                <label for="consulta" class="form-label text-white">Escriba su consulta</label>
+                <label for="consulta" class="form-label ">Escriba su consulta</label>
                 <textarea class="form-control" id="consulta" rows="3"></textarea>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Suscribirse" id="suscripcion" checked>
-                <label class="form-check-label text-white" for="suscripcion">
-                  Suscribirse
-                </label>
+                <label class="form-check-label " for="suscripcion">Suscribirse</label>
+                <input class="form-check-input" type="checkbox" value="Suscribirse" id="suscripcion" checked>              
               </div>
               <input class="btn btn-warning" type="submit" value="Submit">
               <input class="btn btn-warning" type="reset" value="Reset">
           </fieldset>                    
-        </form>   
+        </form> 
+        <div >             
+          <p class="d-flex justify-content-center fs-3" >Contamos con los mejores diseños de casas del mercado. </p>
+          <p class="d-flex justify-content-center fs-3"> ¡La construcción de tu casa no puede esperar!</p>
+        </div>
+        <section class="text-bg-light p-3">
+          <div class="d-block m-2 fs-3 fw-bold">
+            <p>Servicios de arquitectura </p>
+            <p>Construcción de viviendas, ampliaciones, refacciones y remodelaciones.</p>
+            <p>Real Home Project te ofrece la oportunidad de adquirir un Proyecto de vivienda con todos los planos de arquitectura. Te brindamos el mejor asesoramiento gratuito y la posibilidad de adquirir el diseño de tu casa. Contamos con amplia experiencia en el mercado de diseño arquitectónico. La construcción de tu casa o desarrollos de arquitectura.</p>
+            <p class="d-flex justify-content-center">Proyectos de casas residenciales</p>
+          </div>
+          <div >
+            <iframe class="video_casa" src="./assets/videos/casa-americana.mp4" autoplay>Casa Americana</iframe>
+            <iframe class="video_casa" src="./assets/videos/casa-eficiente.mp4" autoplay>Casa Americana</iframe>
+            <iframe class="video_casa" src="./assets/videos/casa-estandar.mp4" autoplay>Casa Americana</iframe>
+          </div>
+        </section>
+        <footer>
           <div class="ms-3 bg-dark text-white">
             <p>realhomeproject.ventas@gmail.com
               Whatsapp 54-3512457808 

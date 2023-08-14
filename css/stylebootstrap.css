@@ -16,6 +16,10 @@
 .texto_index_div{
     font-size: 2rem;
 }
+.video_casa{
+    height: 400px;
+    width: 600px;
+}
 @media (max-width: 1220px) {
     .texto_index {
         margin-bottom: 2rem;
@@ -39,11 +43,17 @@
         margin-bottom: 1%;
     }
 }
-
+@media (max-width: 625px) {
+    .video_casa{
+        height: 200px;
+        width: 300px;
+    }
+    
+}
 
 /* EMPRESA */
 .body_empresa{
-    background-image: url(../assets/image/empresa-background.jpg);
+    background-image: url(../assets/image/nuestra-empresa/empresa-fondo.jpg);
         background-size: cover;
 }
 .empresa_imagen_uno{
