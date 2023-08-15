@@ -31,14 +31,14 @@
        
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 620px) {
     .texto_index_div {
         font-size: 0.8rem;
         margin: 0;
         padding: 0;
     }
 }
-@media (max-width: 355px) {
+@media (max-width: 380px) {
     .texto_index {
         margin-bottom: 1%;
     }
