@@ -7,10 +7,10 @@
       <link rel="stylesheet" href="./css/stylebootstrap.css">
       <title>Inicio</title>
   </head>
-  <body class="bg-dark bg-gradient text-white">
+  <body class="body_index">
       <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid ">
+          <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="./assets/image/d20.webp" alt="logo" width="60" height="48" class="d-inline-block align-text-top">
             </a>
@@ -47,111 +47,82 @@
           </div>
         </nav>
       </header>
-      <main>
-        <div class="container-fluid">
-          <!-- CARRUSEL -->
-          <div id="carousel_index" class="carousel slide col-12">
+      <main class="container-fluid">
+        <!-- CARRUSEL -->
+        <div class="color_uno row">
+          <div class="col-md-4 d-flex flex-column align-items-center text-white">
+            <h2 class="fs-3 m-3 fw-bold border border-4 border-warning ">Real Home Project</h2>
+            <p class="fs-3 m-3 fw-bold border border-4 border-warning ">Desarrollo de proyectos</p>
+            <p class="fs-3 m-3 fw-bold border border-4 border-warning ">Construimos tu vivienda</p>
+            <p class="fs-3 m-3 fw-bold border border-4 border-warning ">Ampliaciones</p>
+            <p class="fs-3 m-3 fw-bold border border-4 border-warning ">Refacciones</p>
+            <p class="fs-3 m-3 fw-bold border border-4 border-warning ">Remodelaciones</p>
+          </div>
+          <div id="carousel_casas" class="carousel slide col-7 m-2" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="3000">
                 <img src="./assets/image/galeria-inicio/img_inicio_uno.jpg" class="d-block w-100" alt="casa moderna al atardecer">
-                <div class="carousel-caption">
-                  <div class="texto_index d-flex flex-column  align-items-center ">
-                    <h2 class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Real Home Project</h2>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Desarrollo de proyectos</p>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Construimos tu vivienda</p>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Ampliaciones</p>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Refacciones</p>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Remodelaciones</p>
-                  </div>
-                </div>
               </div>
-              <div class="carousel-item">
-                <img src="./assets/image/galeria-inicio/img_inicio_dos.jpg" class="d-block w-100 h-50" alt="casa moderna al atardecer">
-                <div class="carousel-caption">
-                  <div class="texto_index d-flex flex-column  align-items-center ">
-                    <h2 class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Real Home Project</h2>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Desarrollo de proyectos</p>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Construimos tu vivienda</p>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Ampliaciones</p>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Refacciones</p>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Remodelaciones</p>
-                  </div>
-                </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./assets/image/galeria-inicio/img_inicio_dos.jpg" class="d-block w-100 " alt="casa moderna al atardecer">
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="3000">
                 <img src="./assets/image/galeria-inicio/img_inicio_tres.jpg" class="d-block w-100" alt="casa moderna con pileta">
-                <div class="carousel-caption">
-                  <div class="texto_index d-flex flex-column  align-items-center ">
-                    <h2 class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Real Home Project</h2>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Desarrollo de proyectos</p>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Construimos tu vivienda</p>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Ampliaciones</p>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Refacciones</p>
-                    <p class="texto_index_div  m-lg-3 fw-bold border border-4 border-primary bg-dark bg-gradient">Remodelaciones</p>
-                  </div>
-                </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel_index" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel_index" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Siguiente</span>
-            </button>
-          </div>                 
-          <!-- FORMULARIO -->
-          <div>
-            <form class="d-flex justify-content-center" action="form.php" method="post" enctype="text/plain">
-              <fieldset class="datos m-3 align-items-center">
-                <legend class="text-white">Datos personales</legend>
-                <div class="mb-3">
-                  <label for="nombre" class="form-label ">Nombre</label>
-                  <input type="text" class="form-control" id="nombre" placeholder="nombre">
-                </div>
-                <div class="mb-3">
-                  <label for="telefono" class="form-label ">Telefono</label>
-                  <input type="number" class="form-control" id="telefono" placeholder="telefono">
-                </div>
-                <div class="mb-3 ">
-                  <label for="email" class="form-label ">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="email@example.com">
-                </div>
-                <div class="mb-3 ">
-                  <label for="consulta" class="form-label ">Escriba su consulta</label>
-                  <textarea class="form-control" id="consulta" rows="3"></textarea>
-                </div>
-                <div class="form-check">
-                  <label class="form-check-label " for="suscripcion">Suscribirse</label>
-                  <input class="form-check-input" type="checkbox" value="Suscribirse" id="suscripcion" checked>              
-                </div>
-                <input class="btn btn-info" type="submit" value="Submit">
-                <input class="btn btn-info" type="reset" value="Reset">
-              </fieldset>                    
-            </form> 
+          </div>  
+        </div>               
+        <!-- FORMULARIO -->
+        <div class="row">
+          <form class="d-flex justify-content-center text-white" action="form.php" method="post" enctype="text/plain">
+            <fieldset class="datos_form color_uno  m-3 p-3 align-items-center">
+              <legend >Datos personales</legend>
+              <div class="mb-3">
+                <label for="nombre" class="form-label ">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="nombre">
+              </div>
+              <div class="mb-3">
+                <label for="telefono" class="form-label ">Telefono</label>
+                <input type="number" class="form-control" id="telefono" placeholder="telefono">
+              </div>
+              <div class="mb-3 ">
+                <label for="email" class="form-label ">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="email@example.com">
+              </div>
+              <div class="mb-3 ">
+                <label for="consulta" class="form-label ">Escriba su consulta</label>
+                <textarea class="form-control" id="consulta" rows="3"></textarea>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label " for="suscripcion">Suscribirse</label>
+                <input class="form-check-input" type="checkbox" value="Suscribirse" id="suscripcion" checked>              
+              </div>
+              <input class="btn btn-info" type="submit" value="Submit">
+              <input class="btn btn-info" type="reset" value="Reset">
+            </fieldset>                    
+          </form> 
+        </div>
+        <div class="row text-warning">             
+          <p class="d-flex justify-content-center fs-1 fw-bold">Contamos con los mejores diseños de casas del mercado. </p>
+          <p class="d-flex justify-content-center fs-1 fw-bold"> ¡La construcción de tu casa no puede esperar!</p>
+        </div>
+        <!-- SECCION CON VIDEOS -->
+        <section class="row text-white">
+          <div class="color_uno  fs-3 fw-bold">
+            Servicios de arquitectura, construcción de viviendas, ampliaciones, refacciones y remodelaciones. Real Home Project te ofrece la oportunidad de adquirir un Proyecto de vivienda con todos los planos de arquitectura. Te brindamos el mejor asesoramiento gratuito y la posibilidad de adquirir el diseño de tu casa. Contamos con amplia experiencia en el mercado de diseño arquitectónico. La construcción de tu casa o desarrollos de arquitectura.
+            <p class="d-flex justify-content-center">Proyectos de casas residenciales</p>
           </div>
-          <div >             
-            <p class="d-flex justify-content-center fs-3" >Contamos con los mejores diseños de casas del mercado. </p>
-            <p class="d-flex justify-content-center fs-3"> ¡La construcción de tu casa no puede esperar!</p>
-          </div>
-          <section class="text-bg-light p-3">
-            <div class="d-block m-2 fs-3 fw-bold">
-              <p>Servicios de arquitectura </p>
-              <p>Construcción de viviendas, ampliaciones, refacciones y remodelaciones.</p>
-              <p>Real Home Project te ofrece la oportunidad de adquirir un Proyecto de vivienda con todos los planos de arquitectura. Te brindamos el mejor asesoramiento gratuito y la posibilidad de adquirir el diseño de tu casa. Contamos con amplia experiencia en el mercado de diseño arquitectónico. La construcción de tu casa o desarrollos de arquitectura.</p>
-              <p class="d-flex justify-content-center">Proyectos de casas residenciales</p>
-            </div>
+          <div class="color_uno container-fluid">
             <div class="row">
               <iframe class="video_casa col" src="./assets/videos/casa-americana.mp4" autoplay>Casa Americana</iframe>
               <iframe class="video_casa col" src="./assets/videos/casa-eficiente.mp4" autoplay>Casa Americana</iframe>
               <iframe class="video_casa col" src="./assets/videos/casa-estandar.mp4" autoplay>Casa Americana</iframe>
             </div>
-          </section>
-        </div>   
+          </div>
+        </section>  
       </main>
-      <footer>
-          <div class="ms-3 bg-dark text-white">
+      <footer class="container-fluid">
+          <div class="row color_uno text-white">
             <p>realhomeproject.ventas@gmail.com
               Whatsapp 54-3512457808 
               Argentina - Córdoba </p>
