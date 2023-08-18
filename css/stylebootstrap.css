@@ -4,15 +4,6 @@
 }
 /* INDEX */
 
-.color_uno{
-    background-color: rgb(62, 1, 31) ;
-}
-.datos_form{
-    width: 20rem;
-}
-.video_casa{
-   
-}
 @media (max-width: 625px) {
     .video_casa{
         height: 200px;

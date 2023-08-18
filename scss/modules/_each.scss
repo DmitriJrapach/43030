@@ -1,0 +1,13 @@
+
+$medidas:(
+    
+    h2: 48px,
+    p: 20px,
+
+);
+
+@each $tag, $size in $medidas{
+    #tag {
+        font-size: $size;
+    }
+}

@@ -1,0 +1,22 @@
+
+body{
+    
+    footer{
+        div{
+         background-color: $c-principal;
+         }
+        
+            p{
+                &.texto_footer{
+                    font-family: $f-terciaria;
+                }
+            }
+            h3{
+                &.texto_footer{
+                 font-family: $f-terciaria;
+                }
+            }
+         }
+    }
+
+

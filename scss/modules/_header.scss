@@ -1,0 +1,34 @@
+
+body{
+  header{
+     nav{
+      div{
+         div{
+          h1{
+              font-family: $f-principal;
+           }
+         }
+         div{
+          ul{
+              li{
+                  a{
+                    &.nav-link{
+                      font-family: $f-principal;
+                    }  
+                  }
+                  ul{
+                    li{
+                      a{
+                        &.dropdown-item{
+                          font-family: $f-principal;
+                        }
+                      }
+                    }
+                  }
+              }
+          }
+         }
+      }
+     }
+  }
+}  
