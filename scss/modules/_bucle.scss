@@ -1,0 +1,8 @@
+
+@for $i from 1 through 5 {
+
+    #row#{$i} {
+        font-size: 1.2rem * $i;
+        
+    }
+}

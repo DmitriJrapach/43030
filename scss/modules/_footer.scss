@@ -1,22 +1,34 @@
-
+@import "./mixin";
 body{
     
     footer{
-        div{
-         background-color: $c-principal;
-         }
+            div{
+                background-color: $c-principal;
+                div{
+                    p{
+                        &.texto_footer{
+                           font-family: $f-terciaria;
+                        }
+                      }
+                   h3{
+                       &.texto_footer{
+                        font-family: $f-terciaria;
+                       }
+                   }
+                }
+                div{
+                    div{
+                        &.redes{
+                            @include redes;
+                        }
+
+                    }
+                }
+            }
         
-            p{
-                &.texto_footer{
-                    font-family: $f-terciaria;
-                }
-            }
-            h3{
-                &.texto_footer{
-                 font-family: $f-terciaria;
-                }
-            }
-         }
+
+
+        }
     }
 
 

@@ -1,0 +1,35 @@
+
+@import "./variables";
+@import "./map";
+
+%btn {
+    font-size: 1.5rem;
+    background-color: map-get($paleta_colores , "red" );
+}
+
+.btn--subm{
+    @extend%btn;
+    background-color: map-get($paleta_colores , "celeste" );
+}
+
+.btn--res{
+    @extend%btn;
+    background-color: map-get($paleta_colores , "oro" );
+}
+
+.redes {
+    font-size: 1.5rem;
+    font-family: $f-terciaria;
+}
+.red--face{
+    @extend.redes;
+    color: map-get($paleta_colores, "azul" );
+}
+.red--insta{
+    @extend.redes;
+    color: map-get($paleta_colores, "celeste" );
+}
+.red--what{
+    @extend.redes;
+    color: map-get($paleta_colores, "verde" );
+}
