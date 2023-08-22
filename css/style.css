@@ -130,7 +130,7 @@ body.body_index main section div.fondo_ind {
 }
 
 body.body_empresa {
-  background-image: url(../assets/image/nuestra-empresa/empresa-fondo.jpg);
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
 }
 body main section div.emp_des {
   font-family: "Courgette", cursive;

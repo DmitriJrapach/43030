@@ -82,7 +82,7 @@ body{
      
 body{
     &.body_empresa{
-        background-image: url(../assets/image/nuestra-empresa/empresa-fondo.jpg);
+        background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
         }
     main{
         section{
@@ -94,9 +94,7 @@ body{
                     border-color: map-get($paleta_colores , "oro" );
                     background-color: map-get($paleta_colores , "vino" );
                     }
-               }
-           
-           
+               }         
             div{
                 &.emp_des--p{
                     font-family: $f-terciaria;
