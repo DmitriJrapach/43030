@@ -36,24 +36,20 @@ body footer div div div.redes, body footer div div div.red--what, body footer di
   font-size: 20px;
 }
 
-#row1 {
-  font-size: 1.2rem;
-}
-
 #row2 {
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 #row3 {
-  font-size: 3.6rem;
+  font-size: 3rem;
 }
 
 #row4 {
-  font-size: 4.8rem;
+  font-size: 4rem;
 }
 
 #row5 {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 .btn--res, .btn--subm {
@@ -196,6 +192,11 @@ body.body_serv {
 body main.main_serv aside {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   font-family: "Courgette", cursive;
+}
+body main.main_serv div p.limited-width {
+  width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /*# sourceMappingURL=style.css.map */

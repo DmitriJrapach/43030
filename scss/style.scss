@@ -192,6 +192,15 @@ body{
                 background-image: linear-gradient(to right, #434343 0%, black 100%);
                 font-family: $f-secundaria;
             }
+            div{
+                p{
+                    &.limited-width{
+                        width: 100%; 
+                        overflow-wrap: break-word;
+                        word-wrap: break-word;
+                    }
+                }
+            }
         }
     }
 }
