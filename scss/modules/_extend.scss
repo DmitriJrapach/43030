@@ -4,17 +4,17 @@
 
 %btn {
     font-size: 1.5rem;
-    background-color: map-get($paleta_colores , "red" );
+    background-color: map-get($paleta_colores , "c_p-bot" );
 }
 
 .btn--subm{
     @extend%btn;
-    background-color: map-get($paleta_colores , "celeste" );
+    background-color: map-get($paleta_colores , "c_s-bot" );
 }
 
 .btn--res{
     @extend%btn;
-    background-color: map-get($paleta_colores , "oro" );
+    background-color: map-get($paleta_colores , "c_t-bot" );
 }
 
 .redes {

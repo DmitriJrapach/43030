@@ -1,6 +1,7 @@
 @mixin redes {
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
+    margin-top: 2rem;
 
 }
 @mixin flexbox($direction, $wrap, $justify,$align) {
