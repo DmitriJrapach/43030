@@ -40,10 +40,10 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link btn btn-outline-info fw-bold fs-5" href="./page/contacto.html">Contacto</a>
+                  <a class="nav-link btn btn-outline-info fw-bold fs-5" href="./page/servicios.html">Servicios</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link btn btn-outline-info fw-bold fs-5" href="./page/servicios.html"">Servicios</a>
+                  <a class="nav-link btn btn-outline-info fw-bold fs-5" href="./page/contacto.html"">Contacto</a>
                 </li>
               </ul>
           </div>
@@ -52,15 +52,15 @@
       <main class="container-fluid">
         <!-- CARRUSEL -->
         <div class="row fondo_ind">
-          <div class="col-md-4 d-flex flex-column align-items-center text-white">
-            <h2 class="fs-3 m-3 ">Real Home Project</h2>
-            <p class="fs-3 m-3 ">Desarrollo de proyectos</p>
+          <div class="texto_ind--carrusel col-md-4 d-flex flex-column align-items-center text-white">
+            <h2 class=" fs-3 m-3 ">Real Home Project</h2>
+            <p class="fs-3 m-3 pt-5">Desarrollo de proyectos</p>
             <p class="fs-3 m-3 ">Construimos tu vivienda</p>
             <p class="fs-3 m-3 ">Ampliaciones</p>
             <p class="fs-3 m-3 ">Refacciones</p>
             <p class="fs-3 m-3 ">Remodelaciones</p>
           </div>
-          <div id="carousel_casas" class="carousel slide col-7 m-2" data-bs-ride="carousel">
+          <div id="carousel_casas" class="carousel slide col-7 m-3" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="3000">
                 <img src="./assets/image/galeria-inicio/img_inicio_uno.webp" class="d-block w-100" alt="casa moderna al atardecer">
@@ -73,10 +73,27 @@
               </div>
             </div>
           </div>  
-        </div>               
+        </div>            
+        <!-- SECCION CON VIDEOS -->
+        <section class="row text-white">
+          <div class="fondo_ind fs-3 ">
+            <p>Real Home Project te ofrece la oportunidad de adquirir un Proyecto de vivienda con todos los planos de arquitectura.</p> 
+            <p>Te brindamos el mejor asesoramiento gratuito y la posibilidad de adquirir el diseño de tu casa.</p> 
+            <p>Contamos con amplia experiencia en el mercado de diseño arquitectónico.</p>  
+            <p>La construcción de tu casa o desarrollos de arquitectura.</p>            
+          </div>
+          <div class="container-fluid fondo_ind">            
+            <div class="row m-lg-4 p-3">
+              <h2 class="texto_ind--proyectos d-flex justify-content-center ">Proyectos de casas residenciales</h2>
+              <iframe class="video_casa col" src="./assets/videos/casa-americana.mp4" autoplay>Casa Americana</iframe>
+              <iframe class="video_casa col" src="./assets/videos/casa-eficiente.mp4" autoplay>Casa Americana</iframe>
+              <iframe class="video_casa col" src="./assets/videos/casa-estandar.mp4" autoplay>Casa Americana</iframe>
+            </div>
+          </div>
+        </section>  
         <!-- FORMULARIO -->
         <div class="row">
-          <form class="d-flex justify-content-center text-white" action="form.php" method="post" enctype="text/plain">
+          <form class="col text-white" action="form.php" method="post" enctype="text/plain">
             <fieldset class="fondo_principal  m-3 p-3 align-items-center border border-4 round">
               <legend >Datos personales</legend>
               <div class="mb-3">
@@ -103,25 +120,12 @@
               <input class="btn btn--res " type="reset" value="Reset">
             </fieldset>                    
           </form> 
-        </div>
-        <div class="row " data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">>             
-          <p class="texto d-flex justify-content-center fs-1 fw-bold">Contamos con los mejores diseños de casas del mercado. </p>
-          <p class="texto d-flex justify-content-center fs-1 fw-bold"> ¡La construcción de tu casa no puede esperar!</p>
-        </div>
-        <!-- SECCION CON VIDEOS -->
-        <section class="row text-white">
-          <div class="fondo_ind fs-3">
-            <p>Servicios de arquitectura, construcción de viviendas, ampliaciones, refacciones y remodelaciones. Real Home Project te ofrece la oportunidad de adquirir un Proyecto de vivienda con todos los planos de arquitectura. Te brindamos el mejor asesoramiento gratuito y la posibilidad de adquirir el diseño de tu casa. Contamos con amplia experiencia en el mercado de diseño arquitectónico. La construcción de tu casa o desarrollos de arquitectura.</p>
-            <p class="d-flex justify-content-center">Proyectos de casas residenciales</p>
+          <div class="col" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">>             
+            <p class="texto_ind--form fs-1 fw-bold">Contamos con los mejores diseños de casas del mercado. </p>
+            <p class="texto_ind--form fs-1 fw-bold"> ¡La construcción de tu casa no puede esperar!</p>
           </div>
-          <div class="container-fluid fondo_ind">
-            <div class="row">
-              <iframe class="video_casa col" src="./assets/videos/casa-americana.mp4" autoplay>Casa Americana</iframe>
-              <iframe class="video_casa col" src="./assets/videos/casa-eficiente.mp4" autoplay>Casa Americana</iframe>
-              <iframe class="video_casa col" src="./assets/videos/casa-estandar.mp4" autoplay>Casa Americana</iframe>
-            </div>
-          </div>
-        </section>  
+        </div>
+
       </main>
       <footer class="container-fluid">
           <div class="row text-white">

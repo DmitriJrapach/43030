@@ -15,7 +15,7 @@ body header nav div div ul li ul li a.dropdown-item {
 }
 
 body footer div {
-  background-color: rgb(62, 1, 31);
+  background-color: rgb(76, 61, 61);
 }
 body footer div div p.texto_footer {
   font-family: "Cormorant", serif;
@@ -36,28 +36,8 @@ body footer div div div.redes, body footer div div div.red--what, body footer di
   font-size: 20px;
 }
 
-#row2 {
-  font-size: 2rem;
-}
-
-#row3 {
-  font-size: 3rem;
-}
-
-#row4 {
-  font-size: 4rem;
-}
-
-#row5 {
-  font-size: 5rem;
-}
-
 .btn--res, .btn--subm {
   font-size: 1.5rem;
-}
-
-.btn--subm {
-  background-color: rgb(0, 255, 255);
 }
 
 .btn--res {
@@ -73,44 +53,58 @@ body footer div div div.redes, body footer div div div.red--what, body footer di
   color: rgb(7, 57, 253);
 }
 
-.red--insta {
-  color: rgb(0, 255, 255);
-}
-
 .red--what {
   color: rgb(9, 189, 9);
 }
 
 body.body_index {
-  background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
-  background-color: #282828;
-  background-size: 16px 16px;
+  background-color: #110A17;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='280' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%2307B2AB' stroke-width='6.7' stroke-opacity='0.17'%3E%3Crect x='-40' y='40' width='75' height='75'/%3E%3Crect x='-35' y='45' width='65' height='65'/%3E%3Crect x='-30' y='50' width='55' height='55'/%3E%3Crect x='-25' y='55' width='45' height='45'/%3E%3Crect x='-20' y='60' width='35' height='35'/%3E%3Crect x='-15' y='65' width='25' height='25'/%3E%3Crect x='-10' y='70' width='15' height='15'/%3E%3Crect x='-5' y='75' width='5' height='5'/%3E%3Crect width='35' height='35'/%3E%3Crect x='5' y='5' width='25' height='25'/%3E%3Crect x='10' y='10' width='15' height='15'/%3E%3Crect x='15' y='15' width='5' height='5'/%3E%3Crect x='40' width='75' height='75'/%3E%3Crect x='45' y='5' width='65' height='65'/%3E%3Crect x='50' y='10' width='55' height='55'/%3E%3Crect x='55' y='15' width='45' height='45'/%3E%3Crect x='60' y='20' width='35' height='35'/%3E%3Crect x='65' y='25' width='25' height='25'/%3E%3Crect x='70' y='30' width='15' height='15'/%3E%3Crect x='75' y='35' width='5' height='5'/%3E%3Crect x='40' y='80' width='35' height='35'/%3E%3Crect x='45' y='85' width='25' height='25'/%3E%3Crect x='50' y='90' width='15' height='15'/%3E%3Crect x='55' y='95' width='5' height='5'/%3E%3Crect x='120' y='-40' width='75' height='75'/%3E%3Crect x='125' y='-35' width='65' height='65'/%3E%3Crect x='130' y='-30' width='55' height='55'/%3E%3Crect x='135' y='-25' width='45' height='45'/%3E%3Crect x='140' y='-20' width='35' height='35'/%3E%3Crect x='145' y='-15' width='25' height='25'/%3E%3Crect x='150' y='-10' width='15' height='15'/%3E%3Crect x='155' y='-5' width='5' height='5'/%3E%3Crect x='120' y='40' width='35' height='35'/%3E%3Crect x='125' y='45' width='25' height='25'/%3E%3Crect x='130' y='50' width='15' height='15'/%3E%3Crect x='135' y='55' width='5' height='5'/%3E%3Crect y='120' width='75' height='75'/%3E%3Crect x='5' y='125' width='65' height='65'/%3E%3Crect x='10' y='130' width='55' height='55'/%3E%3Crect x='15' y='135' width='45' height='45'/%3E%3Crect x='20' y='140' width='35' height='35'/%3E%3Crect x='25' y='145' width='25' height='25'/%3E%3Crect x='30' y='150' width='15' height='15'/%3E%3Crect x='35' y='155' width='5' height='5'/%3E%3Crect x='200' y='120' width='75' height='75'/%3E%3Crect x='40' y='200' width='75' height='75'/%3E%3Crect x='80' y='80' width='75' height='75'/%3E%3Crect x='85' y='85' width='65' height='65'/%3E%3Crect x='90' y='90' width='55' height='55'/%3E%3Crect x='95' y='95' width='45' height='45'/%3E%3Crect x='100' y='100' width='35' height='35'/%3E%3Crect x='105' y='105' width='25' height='25'/%3E%3Crect x='110' y='110' width='15' height='15'/%3E%3Crect x='115' y='115' width='5' height='5'/%3E%3Crect x='80' y='160' width='35' height='35'/%3E%3Crect x='85' y='165' width='25' height='25'/%3E%3Crect x='90' y='170' width='15' height='15'/%3E%3Crect x='95' y='175' width='5' height='5'/%3E%3Crect x='120' y='160' width='75' height='75'/%3E%3Crect x='125' y='165' width='65' height='65'/%3E%3Crect x='130' y='170' width='55' height='55'/%3E%3Crect x='135' y='175' width='45' height='45'/%3E%3Crect x='140' y='180' width='35' height='35'/%3E%3Crect x='145' y='185' width='25' height='25'/%3E%3Crect x='150' y='190' width='15' height='15'/%3E%3Crect x='155' y='195' width='5' height='5'/%3E%3Crect x='160' y='40' width='75' height='75'/%3E%3Crect x='165' y='45' width='65' height='65'/%3E%3Crect x='170' y='50' width='55' height='55'/%3E%3Crect x='175' y='55' width='45' height='45'/%3E%3Crect x='180' y='60' width='35' height='35'/%3E%3Crect x='185' y='65' width='25' height='25'/%3E%3Crect x='190' y='70' width='15' height='15'/%3E%3Crect x='195' y='75' width='5' height='5'/%3E%3Crect x='160' y='120' width='35' height='35'/%3E%3Crect x='165' y='125' width='25' height='25'/%3E%3Crect x='170' y='130' width='15' height='15'/%3E%3Crect x='175' y='135' width='5' height='5'/%3E%3Crect x='200' y='200' width='35' height='35'/%3E%3Crect x='200' width='35' height='35'/%3E%3Crect y='200' width='35' height='35'/%3E%3C/g%3E%3C/svg%3E");
 }
 body.body_index main div.fondo_ind {
-  background-color: rgb(62, 1, 31);
+  background-color: rgb(76, 61, 61);
 }
-body.body_index main div div h2 {
+body.body_index main div div.texto_ind--carrusel {
   font-family: "Courgette", cursive;
-  border: solid;
-  border-radius: 5px;
-  border-color: rgb(255, 204, 0);
 }
-body.body_index main div div p {
-  font-family: "Courgette", cursive;
-  border: solid;
-  border-radius: 5px;
-  border-color: rgb(255, 204, 0);
+body.body_index main div div.texto_ind--carrusel h2 {
+  border-bottom: 6px solid;
+  background: transparent;
+  border-image: linear-gradient(45deg, rgb(239, 3, 239), rgb(248, 219, 1)) 1;
 }
 body.body_index main div form fieldset {
   width: 30rem;
-  background-color: rgb(62, 1, 31);
+  background-color: rgb(76, 61, 61);
   font-family: "Cormorant", serif;
 }
-body.body_index main div p.texto {
+@media (max-width: 550px) {
+  body.body_index main div form fieldset {
+    width: 20rem;
+  }
+}
+@media (max-width: 370px) {
+  body.body_index main div form fieldset {
+    width: 15rem;
+  }
+}
+body.body_index main div p.texto_ind--form {
   font-family: "Courgette", cursive;
-  background: linear-gradient(rgb(242, 230, 4), rgb(246, 3, 189));
+  background: linear-gradient(45deg, rgb(239, 3, 239), rgb(248, 219, 1));
   -webkit-background-clip: text;
   color: transparent;
+}
+body.body_index main section div.fondo_ind {
+  font-family: "Cormorant", serif;
+  background-color: rgb(76, 61, 61);
+}
+body.body_index main section div.fondo_ind p {
+  margin-left: 2rem;
+}
+body.body_index main section div div h2.texto_ind--proyectos {
+  font-family: "Courgette", cursive;
+  border-top: 6px solid;
+  background: transparent;
+  border-image: linear-gradient(45deg, rgb(239, 3, 239), rgb(248, 219, 1)) 1;
 }
 body.body_index main section div div iframe {
   height: 450px;
@@ -120,35 +114,31 @@ body.body_index main section div div iframe {
     height: 200px;
   }
 }
-body.body_index main section div.fondo_ind {
-  font-family: f-terciaria;
-  background-color: rgb(62, 1, 31);
-}
 
 body.body_empresa {
-  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(66, 52, 51) 0%, rgb(226, 209, 168) 50%, rgb(108, 141, 161) 100%);
 }
 body main section div.emp_des {
   font-family: "Courgette", cursive;
-  border: solid;
-  border-radius: 5px;
-  border-color: rgb(255, 204, 0);
-  background-color: rgb(62, 1, 31);
+  border-bottom: 6px solid;
+  background: transparent;
+  border-image: linear-gradient(45deg, rgb(239, 3, 239), rgb(248, 219, 1)) 1;
+  background-color: rgb(76, 61, 61);
 }
 body main section div.emp_des--p {
   font-family: "Cormorant", serif;
-  background-color: rgb(62, 1, 31);
+  background-color: rgb(76, 61, 61);
 }
 
 main.main_proy {
-  background-color: rgb(62, 1, 31);
+  background-color: rgb(76, 61, 61);
 }
 main.main_proy section div h2.proy_titulo {
   font-family: "Courgette", cursive;
 }
 main.main_proy section div p.proy_p {
   font-family: "Cormorant", serif;
-  color: rgb(0, 255, 255);
 }
 main.main_proy section div.links_pdf a {
   font-family: "Cormorant", serif;
@@ -170,7 +160,7 @@ body main.main_cont {
 body main div section.contacto {
   font-family: "Courgette", cursive;
   font-size: 2rem;
-  background-color: rgb(62, 1, 31);
+  background-color: rgb(76, 61, 61);
 }
 body main div section.contacto p.limited-width {
   width: 100%;
@@ -178,7 +168,7 @@ body main div section.contacto p.limited-width {
   word-wrap: break-word;
 }
 body main div aside {
-  background-color: rgb(62, 1, 31);
+  background-color: rgb(76, 61, 61);
 }
 body main div aside div a {
   font-family: "Courgette", cursive;
@@ -186,7 +176,7 @@ body main div aside div a {
 }
 
 body.body_serv {
-  background-color: rgb(62, 1, 31);
+  background-color: rgb(76, 61, 61);
   font-family: "Courgette", cursive;
 }
 body main.main_serv aside {

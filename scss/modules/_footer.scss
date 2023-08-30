@@ -1,9 +1,10 @@
+@import "./map";
 @import "./mixin";
 body{
     
     footer{
             div{
-                background-color: $c-principal;
+                background-color: map-get($paleta_colores , "c-principal" );
                 div{
                     p{
                         &.texto_footer{
