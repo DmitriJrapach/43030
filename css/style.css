@@ -178,6 +178,12 @@ body main.main_serv section.img_section {
   background: transparent;
   border-image: linear-gradient(45deg, rgb(239, 3, 239), rgb(248, 219, 1)) 1;
 }
+@media (max-width: 375px) {
+  body main.main_serv section.img_section div img.img_section-img {
+    height: 5rem;
+    width: 5rem;
+  }
+}
 body main.main_serv section.img_section div h2 {
   color: rgb(0, 255, 255);
 }
@@ -227,13 +233,24 @@ body main section div.redes_soc a img {
   border-image: linear-gradient(45deg, rgb(239, 3, 239), rgb(248, 219, 1)) 1;
 }
 body main section div.redes_soc a img.cont_face:hover {
-  background-color: rgb(15, 60, 242);
+  background-color: rgb(117, 142, 239);
 }
 body main section div.redes_soc a img.cont_inst:hover {
-  background-color: rgb(230, 184, 31);
+  background-color: rgb(251, 207, 141);
 }
 body main section div.redes_soc a img.cont_whats:hover {
-  background-color: rgb(9, 164, 9);
+  background-color: rgb(147, 234, 147);
+}
+@media (max-width: 900px) {
+  body main section div.redes_soc a img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+@media (max-width: 500px) {
+  body main section div.redes_soc {
+    flex-wrap: wrap;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

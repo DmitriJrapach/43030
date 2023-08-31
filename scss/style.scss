@@ -178,6 +178,15 @@ body{
                     border-image: map-get($paleta_colores , "c-gradiente" );
                     
                     div{
+                        img{
+                            &.img_section-img{
+                                @media (max-width: 375px) {
+                                        height: 5rem;
+                                        width: 5rem;
+                                    
+                                }
+                            } 
+                        }
                         h2{
                             color: map-get($paleta_colores , "c_s-bot" );
 
@@ -263,10 +272,18 @@ body{
                                     &.cont_whats:hover{
                                         background-color: map-get($paleta_colores , "c_whats" );
                                     }
+                                    @media(max-width: 900px) {
+                                        width: 5rem;
+                                        height: 5rem;
+                                    }
                                 }
                             
                         
                             }
+                            @media(max-width: 500px) {
+                                flex-wrap: wrap;
+                            }   
+
                         }
                     }  
 
