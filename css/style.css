@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&family=Courgette&family=Pacifico&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&family=Courgette&family=Pacifico&family=Permanent+Marker&family=Roboto+Mono:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&family=Courgette&family=Pacifico&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&family=Courgette&family=Pacifico&family=Permanent+Marker&family=Roboto+Mono:ital@1&display=swap");
 body header nav div div h1 {
   font-family: "Pacifico", cursive;
 }
@@ -45,6 +47,22 @@ body footer div div div.redes a img:hover, body footer div div div.red--what a i
 
 #tag {
   font-size: 20px;
+}
+
+#row2 {
+  font-size: 2rem;
+}
+
+#row3 {
+  font-size: 3rem;
+}
+
+#row4 {
+  font-size: 4rem;
+}
+
+#row5 {
+  font-size: 5rem;
 }
 
 .btn--res, .btn--subm {
@@ -251,6 +269,48 @@ body main section div.redes_soc a img.cont_whats:hover {
   body main section div.redes_soc {
     flex-wrap: wrap;
   }
+}
+
+body.body_error main section div p {
+  font-size: 5rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+}
+body.body_error main section div a {
+  background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+body.body_error main section div a:before {
+  content: "";
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+body.body_error main section div a:hover {
+  background-position: 0;
+}
+body.body_error main section div a:hover::before {
+  width: 100%;
+}
+body.body_error main section div body {
+  display: grid;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  height: 100vh;
+  place-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
